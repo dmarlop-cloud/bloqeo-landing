@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" fill="none">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="400" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#5B7FD4"/>
+      <stop offset="100%" stop-color="#8BA4E8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background pill -->
+  <rect width="400" height="120" rx="20" fill="url(#grad)"/>
+
+  <!-- Shield icon -->
+  <g transform="translate(28, 14)">
+    <!-- Outer shield -->
+    <path d="M32 4 C18 4 6 10 6 10 L6 44 C6 62 32 74 32 74 C32 74 58 62 58 44 L58 10 C58 10 46 4 32 4 Z"
+          fill="white" opacity="0.15"/>
+    <!-- Inner shield fill -->
+    <path d="M32 8 C20 8 10 13 10 13 L10 44 C10 59 32 70 32 70 C32 70 54 59 54 44 L54 13 C54 13 44 8 32 8 Z"
+          fill="white"/>
+    <!-- Vertical divider line (left of center) -->
+    <path d="M24 10 C22 14 22 18 24 22 L24 66 C26.5 68.5 29 70 32 71"
+          stroke="#5B7FD4" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- "bloqeo" wordmark -->
+  <text x="108" y="78" font-family="Inter, system-ui, sans-serif" font-size="52" font-weight="700" fill="white" letter-spacing="-1">bloqeo</text>
+</svg>
